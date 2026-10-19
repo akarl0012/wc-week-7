@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Week 7</title>
+</head>
+<body>
+    <hr>
+    <table>
+        <caption>Student List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Program</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aaron</td>
+                <td>010</td>
+                <td>IMM</td>
+            </tr>
+            <tr>
+                <td>EV</td>
+                <td>020</td>
+                <td>Heritage</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    
+    <hr>
+<!-- Form lesson and information  -->
+    <form action="result.html" method="GET">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" required placeholder="Firstname">
+        </div>
+        <div> 
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="password">
+        </div>
+        <div>
+            <label for="q">Question</label>
+            <textarea name="question" id="q"></textarea>
+        </div>
+        <div>
+            <label for="pgm">Program</label>
+            <select name="program" id="pgm">
+                <option value="imm">Int. Med. Mgmt.</option>
+                <option value="gd">Graphic Design</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Would you like a reply?</legend>
+                
+                <label for="y">Yes</label>
+                <input type="checkbox" id="y" name="yes">
+
+                <label for="n">No</label>
+                <input type="checkbox" id="n" name="no">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Email Correct</legend>
+                
+                <label for="y2">Yes</label>
+                <input type="radio" id="y2" name="email" value="yes">
+
+                <label for="n2">No</label>
+                <input type="radio" id="n2" name="email" value="no">
+
+            </fieldset>
+        </div>
+
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+</html>
